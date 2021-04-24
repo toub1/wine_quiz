@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200;250;300;400;700&display=swap');
+:root{
+    background-color: #F2F2F2;
+    --mainText:#732F29; 
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Changa', sans-serif;
+}
+
+h1{
+    font-size: 56px;
+    color: var(--mainText);
+    margin-bottom: 5rem;
+}
+
+h2{
+    font-size: 36px;
+    color: var(--mainText);
+    margin-bottom: 60px;
+}
+
+.main-container{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1280px;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
+/* Buttons */
+
+.btn{
+    font-size: 30px;
+    padding: 30px 0;
+    width: 480px;
+    text-align: center;
+    margin-bottom: 16px;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(90deg, rgb(242,173,242)0%, rgb(242,136,167)100% );
+}
+
+/*Responsive*/
+@media screen and (max-width: 1200px) {
+    .main-container{
+        width: 95%;
+    }
+}
